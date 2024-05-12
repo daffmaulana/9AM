@@ -1,0 +1,228 @@
+*{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 200px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    width: 100%;
+    background-color: #F0F0F0;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: #FF8A08; 
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.navlogo a{
+    display: flex;
+}
+.navlogo img{
+    max-height: 50px;
+}
+.navdir{
+    padding:0px;
+    list-style: none;
+    margin: 0%;
+}
+.navli {
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding-inline: 20px;
+}
+.navli a:visited {
+    color: white;
+}
+.navbutton{
+    padding: 0px;
+}
+.button-daftar {
+    background-color: white;
+    border-radius: 100px;
+    border: none;
+    height: 50px;
+    width: 115px;
+}
+.button-login{
+    background-color: transparent;
+    border: none;
+}
+.button-daftar a {
+    padding:0px;
+    font-size: 16px;
+    color: #FF8A08;
+    font-weight: bold;
+}
+.button-login a{
+    padding: 0px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+section{
+    scroll-margin-top:1em;
+}
+
+.slider-wrapper{
+    position: relative;
+    margin: 0 auto;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 6;
+    overflow-x: hidden;
+    scroll-snap-type: x, mandatory;
+    scroll-behavior: smooth;
+}
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+.slider-nav a:hover{
+    opacity: 100%;
+}
+
+/* TESTIMONI */
+.containertesti{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0% 5%;
+    justify-content:space-around;}
+
+.testicard{
+    flex: 1 0 0;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 30px 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.testicard img{
+    margin: 0px 0px 8px;
+    max-width: 100px;
+    border-radius: 100px;
+}
+.testicard .role{
+    color: #6D6D6D;
+    text-align: center;
+}
+.testicard p{
+    text-align: left;
+    display: -webkit-box; 
+    /* -webkit-line-clamp: 6;  */
+    -webkit-box-orient: vertical;
+    margin: 0px;
+}
+.testicard i{
+    margin: 8px 0px 8px;
+    color: #FF8A08;
+
+}
+.testicard h4{
+    margin:0px;
+    color:black;
+}
+
+
+
+/* footer */
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1C1C1C;
+    padding: 30px 10%;
+}
+
+.footercol{
+    display: flex;
+    flex: 1 0 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0px 20px;
+}
+
+.footerlogo img{
+    max-width: 50%;
+}
+.footerlogo{
+    text-align: center;
+}
+
+.footercol a:visited, .footercol a:link{
+    color: #dcdcdc;
+}
+.footerflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.footercol li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.footercol h4{
+    position: relative;
+    display: inline-block;
+}
+.footercol h4::after{
+    content: "";
+    position: absolute;
+    left:0px;
+    bottom:-8px;
+    background-color: #FF8A08;
+    height: 2px;
+    width: 100%;
+}
+
+.footercol ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logosocmed a{
+    margin: 0px 5px 0px 5px;
+    font-size: 50px;
+}
