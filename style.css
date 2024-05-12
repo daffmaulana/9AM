@@ -49,7 +49,7 @@ body{
     font-weight: bold;
     padding-inline: 20px;
 }
-.navli a:visited {
+.navli a:visited, .navli a:link {
     color: white;
 }
 .navbutton{
@@ -120,6 +120,26 @@ section{
 }
 
 /* TESTIMONI */
+
+.containergambartesti{
+    background-image: url("testibg.jpg");
+    background-size: cover;
+    padding: 100px;
+}
+
+.containertexttesti{
+    text-align: center;
+}
+
+.containertexttesti h1{
+    color: white;
+    margin: 0px;
+}
+.containergambartesti p{
+    color: #dadada;
+    margin: 0px;
+}
+
 .containertesti{
     display: flex;
     flex-wrap: wrap;
@@ -152,6 +172,7 @@ section{
     /* -webkit-line-clamp: 6;  */
     -webkit-box-orient: vertical;
     margin: 0px;
+    color: black;
 }
 .testicard i{
     margin: 8px 0px 8px;
@@ -160,7 +181,7 @@ section{
 }
 .testicard h4{
     margin:0px;
-    color:black;
+    color:black
 }
 
 
