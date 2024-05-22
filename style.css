@@ -1,6 +1,7 @@
 *{
     text-decoration: none;
 }
+
 html{
     scroll-behavior: smooth;
     scroll-padding-top: 200px;
@@ -169,8 +170,9 @@ section{
 .testicard p{
     text-align: left;
     display: -webkit-box; 
-    /* -webkit-line-clamp: 6;  */
+    -webkit-line-clamp: 10; 
     -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
     margin: 0px;
     color: black;
 }
@@ -246,4 +248,21 @@ footer{
 .logosocmed a{
     margin: 0px 5px 0px 5px;
     font-size: 50px;
+}
+
+.login-content h2{
+    padding: 0%;
+    margin: 0%;
+}
+.containerloreg{
+    display: flex;
+}
+
+
+
+.logoloreg{
+    background-color: #FF8A08;
+    width: 50%;
+    height: 100%;
+
 }
