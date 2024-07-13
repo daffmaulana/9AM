@@ -2,6 +2,8 @@
 # [9AM Portal Job 💼](https://9amproject.000webhostapp.com/)
 Discover your dream career with 9AM! Our job portal connects you to countless opportunities at top-tier companies. Get ready to elevate your professional journey with us!
 
+Click to go to the [website](https://9amproject.000webhostapp.com/) or [prototype](https://www.figma.com/proto/EzAUmPzfu7O1ehGB57dmI5/9am.com?page-id=0%3A1&node-id=1-2&viewport=623%2C562%2C0.13&t=X7tYn5ng6VN9Yn8P-1&scaling=contain&content-scaling=fixed)
+
 ## ⭐ Features
 - Sign-Up & Login System: Create an account to access exclusive features like our special CV Builder. Even without signing in, you can still explore our website seamlessly!
 - Home Page: Browse the latest job vacancies and news updates, and check out testimonials from our users.
